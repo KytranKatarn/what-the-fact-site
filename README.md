@@ -1,30 +1,47 @@
-# What The Fact
+# What The Fact — early landing page (archived)
 
-Official website for What The Fact — AI-powered transparent news platform.
+> ### ⚠️ This repository is **not** the What The Fact website.
+>
+> It holds the original single-page "Coming Soon" landing site from April 2026.
+> It is **archived and unmaintained**, and it does **not** serve
+> [what-the-fact.com](https://what-the-fact.com).
+>
+> The live newsroom — the article feed, coverage map, Blindspot, bias scoring,
+> fact-check verdicts and subscriber tiers — is a **separate application** built
+> and deployed from a different, private codebase. Nothing in this repository
+> affects it.
+>
+> **If you are looking for the source of the live site, it is not here.**
+> Maintainers: see the internal project documentation for its location.
 
-## About
+---
 
-What The Fact uses AI agents to detect bias, verify facts, and present news with full transparency. Every article shows its sources, bias analysis, and confidence scores.
+## What this repository actually contains
 
-## Team
+A single static page (`index.html` plus a stylesheet), last updated
+**2026-04-14**. It was the pre-launch placeholder for the domain and has been
+superseded by the live application.
 
-Powered by 6 AI agents in the News & Media department:
-- **F.A.C.T.** — Director
-- **I.N.K.** — Content generation
-- **B.I.A.S.** — Bias detection
-- **V.E.R.I.F.Y.** — Fact checking
-- **D.R.A.F.T.** — Article drafting
-- **P.U.B.L.I.S.H.** — Publication management
+## About What The Fact
 
-## Deployment
+What The Fact is a Canadian news-transparency product. It ingests coverage from
+dozens of Canadian outlets, clusters related reporting into stories, and shows
+bias analysis, source transparency and fact-check verdicts alongside each story.
 
-Static site hosted on Hostinger at [what-the-fact.com](https://what-the-fact.com).
+Visit the live product at **[what-the-fact.com](https://what-the-fact.com)**.
 
 ## Related
 
 - [Kytran Empowerment](https://kytranempowerment.com) — parent company
-- [C.R.E.E.D.](https://creed-ai.org) — governance framework
+- [C.R.E.E.D.](https://creed-ai.org) — AI ethics and governance framework
 
 ## License
 
-AGPL-3.0 — see [LICENSE](LICENSE)
+AGPL-3.0 — see [LICENSE](LICENSE).
+
+---
+
+<sub>Archived 2026-09-02. The previous version of this file described this
+repository as the "Official website" and stated that it was deployed at
+what-the-fact.com. Both were inaccurate and caused tooling to be connected here
+instead of to the live application.</sub>
