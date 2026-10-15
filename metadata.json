@@ -1,0 +1,8 @@
+{
+  "name": "What The Fact — Canada's AI-Powered Transparent News Platform",
+  "description": "What The Fact is Canada's first AI-powered transparent news platform. Every article fact-checked, every bias exposed, every decision auditable.",
+  "prompt": "What The Fact — Canada's AI-Powered Transparent News Platform",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

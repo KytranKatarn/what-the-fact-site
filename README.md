@@ -1,47 +1,55 @@
-# What The Fact — early landing page (archived)
+# What The Fact — Canada's AI-Powered Transparent News Platform
 
-> ### ⚠️ This repository is **not** the What The Fact website.
->
-> It holds the original single-page "Coming Soon" landing site from April 2026.
-> It is **archived and unmaintained**, and it does **not** serve
-> [what-the-fact.com](https://what-the-fact.com).
->
-> The live newsroom — the article feed, coverage map, Blindspot, bias scoring,
-> fact-check verdicts and subscriber tiers — is a **separate application** built
-> and deployed from a different, private codebase. Nothing in this repository
-> affects it.
->
-> **If you are looking for the source of the live site, it is not here.**
-> Maintainers: see the internal project documentation for its location.
+A modern React web application built with TypeScript, Vite, and modular component architecture.
+
+What The Fact is Canada's first AI-powered transparent news platform:
+- **Every article fact-checked**
+- **Every bias exposed**
+- **Every decision auditable**
 
 ---
 
-## What this repository actually contains
+## Architecture & Features
 
-A single static page (`index.html` plus a stylesheet), last updated
-**2026-04-14**. It was the pre-launch placeholder for the domain and has been
-superseded by the live application.
-
-## About What The Fact
-
-What The Fact is a Canadian news-transparency product. It ingests coverage from
-dozens of Canadian outlets, clusters related reporting into stories, and shows
-bias analysis, source transparency and fact-check verdicts alongside each story.
-
-Visit the live product at **[what-the-fact.com](https://what-the-fact.com)**.
-
-## Related
-
-- [Kytran Empowerment](https://kytranempowerment.com) — parent company
-- [C.R.E.E.D.](https://creed-ai.org) — AI ethics and governance framework
-
-## License
-
-AGPL-3.0 — see [LICENSE](LICENSE).
+- **React 19 & TypeScript**: Component-driven architecture with strictly typed data models.
+- **5-Step Transparent News Pipeline**:
+  - **I.N.K.** (Investigative News & Knowledge) — Source gathering and signal monitoring
+  - **B.I.A.S.** (Balanced Information Analysis & Scoring) — Political spectrum scoring and omission detection
+  - **V.E.R.I.F.Y.** (Verification, Evidence Review & Integrity) — Multi-source cross-referencing and confidence scoring
+  - **D.R.A.F.T.** (Data Reduction & Factual Translation) — Balanced reporting synthesis
+  - **P.U.B.L.I.S.H.** (Platform Upload, Broadcast & Live Integration) — Auditable publishing with attached provenance
+- **Interactive Bias Spectrum**:
+  - Outlet positioning across Far Left, Center Left, Center, Center Right, and Far Right
+  - Interactive inspector for major Canadian outlets (CBC, Globe & Mail, Toronto Star, National Post, Post Millennial, Western Standard, and WTF Verified Center)
+- **AI Agent Team**:
+  - Detailed profiles for Director F.A.C.T. and staff agents
+- **Governance Integration**:
+  - Monitored by **C.R.E.E.D.** (Compliance, Rights & Ethical Enforcement Directive)
+  - Public compliance status and audit trails
+- **Interactive Early Access Waitlist**:
+  - Client-side registration with local storage persistence and email validation
 
 ---
 
-<sub>Archived 2026-09-02. The previous version of this file described this
-repository as the "Official website" and stated that it was deployed at
-what-the-fact.com. Both were inaccurate and caused tooling to be connected here
-instead of to the live application.</sub>
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start the dev server on port 3000
+npm run dev
+
+# Compile and build for production
+npm run build
+```
+
+## Related Links
+
+- [Official Methodology](https://what-the-fact.tech)
+- [C.R.E.E.D. Governance Platform](https://creed-ai.org)
+- [Kytran Empowerment Inc.](https://kytranempowerment.com)
+
+---
+
+&copy; 2026 Kytran Empowerment Inc. All rights reserved.
