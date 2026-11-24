@@ -27,3 +27,26 @@ export interface Agent {
   avatarClass: string;
   initials: string;
 }
+
+export interface GeoArticle {
+  id: number;
+  title: string;
+  lat: number | null;
+  lng: number | null;
+  province_code: string | null;
+  source_name: string;
+  bias_band: string | null;
+  ai_analyzed: boolean;
+}
+
+export interface ProvinceCount {
+  count: number;
+  band: string;
+  avg_score: number;
+}
+
+export interface GeoArticlesResponse {
+  ok: boolean;
+  province_counts?: Record<string, ProvinceCount>;
+  articles: GeoArticle[];
+}

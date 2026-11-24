@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
 import { BiasSpectrum } from './components/BiasSpectrum';
+import { LatestStories } from './components/LatestStories';
 import { AgentTeam } from './components/AgentTeam';
 import { Governance } from './components/Governance';
 import { CtaStrip } from './components/CtaStrip';
@@ -19,6 +20,7 @@ export const App: React.FC = () => {
         <Hero onOpenWaitlist={() => setWaitlistOpen(true)} />
         <HowItWorks />
         <BiasSpectrum />
+        <LatestStories />
         <AgentTeam />
         <Governance />
         <CtaStrip onOpenWaitlist={() => setWaitlistOpen(true)} />
