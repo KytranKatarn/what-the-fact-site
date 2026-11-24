@@ -53,6 +53,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWaitlist }) => {
           <a href="#bias-spectrum" onClick={(e) => handleNavClick(e, '#bias-spectrum')}>
             Bias Spectrum
           </a>
+          <a href="#latest-stories" onClick={(e) => handleNavClick(e, '#latest-stories')}>
+            Live Stories
+          </a>
           <a href="#team" onClick={(e) => handleNavClick(e, '#team')}>
             The Team
           </a>

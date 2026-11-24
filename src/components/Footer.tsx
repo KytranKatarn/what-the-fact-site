@@ -33,6 +33,7 @@ export const Footer: React.FC = () => {
               <ul role="list">
                 <li><a href="#how-it-works" onClick={(e) => handleNavClick(e, '#how-it-works')}>How It Works</a></li>
                 <li><a href="#bias-spectrum" onClick={(e) => handleNavClick(e, '#bias-spectrum')}>Bias Spectrum</a></li>
+                <li><a href="#latest-stories" onClick={(e) => handleNavClick(e, '#latest-stories')}>Live Stories</a></li>
                 <li><a href="#team" onClick={(e) => handleNavClick(e, '#team')}>The Team</a></li>
                 <li><a href="#governance" onClick={(e) => handleNavClick(e, '#governance')}>Governance</a></li>
               </ul>
